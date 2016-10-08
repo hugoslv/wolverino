@@ -71,7 +71,9 @@ void loop() {
   input = analogRead(A1);
 
   // Check mode selector
-  if ((millis()-t) > 1000 && analogRead(A0) > 25) mode = 255 - mode;
+  // if ((millis()-t) > 1000 && analogRead(A0) > 25) mode = 255 - mode;
+  if (analogRead(A0) > 25) mode = 255;
+  else mode = 0;
   
   //*/
   // If in PROPORTIONAL mode
