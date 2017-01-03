@@ -1,0 +1,11 @@
+                                  product design
+                                       
+To develop the Wolverino, to a product design "do it yourself" assembly :
+
+    - Develop all the parts in the same file in Blender (for fast development we use Openscad with multiple parts);
+         - Create a Blender file with the v1 assembled Layer 1 and the new development in the Layer 6 ;
+         
+    - Ensure easy fitting off all the printed parts, and no glue.
+    - We will use metric screws by choice;
+    - All the 3D printed parts will be design to be printed in smaller printers 135x190x120.
+    - Develop all the instructions to assemble the product in open source software Inkscape an scribus.
