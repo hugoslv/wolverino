@@ -79,5 +79,4 @@ void loop() {
   //myservo.write(output);
     
   Serial.println(avg);
-} 
-
+}
