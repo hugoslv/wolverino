@@ -66,6 +66,8 @@ brackets](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBrac
 [  ] 1x [Servo lever](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoLever.scad)
 
 [  ] 4x [Armband bracket](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ArmbandBracket.scad)
+
+[  ] 1x [External battery holder](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ArmPad.scad) (optional)
  
 ### Hardware
 [  ] Metal wire (like the one used for hanging picture frames)
@@ -132,11 +134,21 @@ Needless to say that hacking is incentivised and improvements to the designs wil
 ### Step 1: Merge the claw and servo boxes
 Glue the claw box for the [left](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawBox-LeftArm.scad) or [right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawBox-RightArm.scad) arm to the corresponding servo box (for the
 [left](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBox-LeftArm.scad)
-or [right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBox-RightArm.scad) arm).
+or [right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBox-RightArm.scad) arm) in such a way that the side slot lines up perfectly.
 
+### Step 2: Claw assembly
+To create the claw assembly slide one [claw](https://github.com/hugoslv/wolverino/blob/master/3d%20models/Claw.scad) through the [holding
+shaft](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawShaft.scad) in such a way that it is centred on the shaft. 
 
-### Step 2
-ToDo
+Slide one of the [spacers](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawSpacers.scad) through the holding shaft to the left of the centred claw and the other spacer through to the right.
+
+Slide the remaining two claws through the holding shaft, one through the left and the other through the right.
+
+Slide one of the [claw retainers](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawShaftLocks.scad) through the left and the other through the right.
+
+Finish off the assembly, by using a piece of metal wire to hold the claw components in place on the shaft. There are a couple of through holds on each edge of the the holding shaft in order to anchor the wire. The result should be as follows:
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/ClawAssembly.JPG">
+
 
 ### Step 3
 ToDo
