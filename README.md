@@ -20,8 +20,6 @@ tools its best to give this checkist prior to strating your build.
 
 [ ] Solder
 
-[ ] Blu tack (or equivalent)
-
 ### Textile 
 [ ] 100 cm of elastic strip (2.5 cm width)
 
@@ -41,6 +39,8 @@ great)
 [ ] Metal wire (like the one used for hanging picture frames)
 
 [ ] Small metal nail
+
+[ ] Blu tack (or equivalent)
 
 #### Arduino variant
 [ ] Arduino Nano (or equivalent)
@@ -64,6 +64,15 @@ sensor with 1.3 cm diameter
 [ ] 1x [Wire Bit](https://shop.littlebits.cc/products/wire-bit)
 
 [ ] 1x [Proto Bit](https://shop.littlebits.cc/products/proto)
+
+[ ] 1x [BITalino EMG Sensor](https://store.plux.info/bitalino-sensors/8-electromyography-emg-sensor.html)
+
+[ ] 1x [BITalino
+SnapBIT-TRIO](https://store.plux.info/breakout-boards/221-snapbit-delta.html)
+
+[ ] 2x [PCB Header with Sherlock Plug Pitch](https://store.plux.info/handy-tools/248-1x4-pcb-header-with-sherlock-plug-pitch-810122931.html)
+
+[ ] 1x [Non-Gelled Reusable Ag/AgCl Electrodes](https://store.plux.info/electrodes/60-non-gelled-reusable-agagcl-electrodes.html)
 
 [ ] 1x [Bargraph](https://shop.littlebits.cc/products/bargraph)
 (optional)
