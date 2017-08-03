@@ -5,7 +5,7 @@ signals.
 
 ## What we've used for our builds
 Between (a lot of) 3D printed parts, textiles, hardware and other
-tools its best to give this checkist prior to strating your build.
+tools its best to give this checkist prior to starting your build.
 
 ### Tools
 [ ] 3D printer
@@ -29,6 +29,36 @@ tools its best to give this checkist prior to strating your build.
 
 [ ] 2 adjustable buckles (2.5 cm running space)
 
+
+### 3D Printing 
+[ ] 1x Claw box for the [left](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawBox-LeftArm.scad) or [right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawBox-RightArm.scad) arm
+
+[ ] 1x Servo box for the
+[left](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBox-LeftArm.scad)
+or
+[right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBox-RightArm.scad)
+arm
+
+[ ] 3x [Claw](https://github.com/hugoslv/wolverino/blob/master/3d%20models/Claw.scad)
+
+[ ] 1x [Claw holding
+shaft](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawShaft.scad)
+
+[ ] 2x [Claw
+retainers](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawShaftLocks.scad)
+
+[ ] 2x [Claw
+spacers](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawSpacers.scad)
+
+[ ] 2x [Arduino holding clip](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClipArduinoBit.scad)
+
+[ ] 2x [Servo
+brackets](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBracket.scad)
+
+[ ] 1x [Servo lever](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoLever.scad)
+
+[ ] 4x [Armband bracket](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ArmbandBracket.scad)
+ 
 ### Hardware
 [ ] Power bank preferrably with on/off button ([this
 model](http://uk.rs-online.com/web/p/power-banks/7757504/) works
