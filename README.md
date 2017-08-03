@@ -9,34 +9,48 @@ tools its best to give this checkist prior to strating your build.
 
 ### Tools
 [ ] 3D printer
+
 [ ] Super glue
+
 [ ] Small pliers
+
 [ ] Sewing machine
+
 [ ] Soldering iron
+
 [ ] Solder
 
 ### Textile 
 [ ] 100 cm of elastic strip (2.5 cm width)
+
 [ ] 21 cm of velcro loop tape (2 cm width)
+
 [ ] 10 cm of velcro hook tape (2 cm width)
+
 [ ] 2 adjustable buckles (2.5 cm running space)
 
 ### Hardware
 [ ] Power bank with on/off button ([this
 model](](http://uk.rs-online.com/web/p/power-banks/7757504/) works
 great)
+
 [ ] USB to Micro (or Mini) USB cable ([retractable is
 recommended](http://www.dx.com/pt/p/retractable-usb-to-mini-usb-data-cable-74cm-length-22552#.WYMNZhRT7Ew))
+
 [ ] Metal wire (like the one used for hanging picture frames)
+
 [ ] Small nail
 
 #### Arduino variant
 [ ] Arduino Nano (or equivalent)
+
 [ ] [TowerPro SG90 Micro
 Servo](http://www.dx.com/pt/p/towerpro-sg90-9g-mini-servo-with-accessories-12859?tc=EUR&gclid=EAIaIQobChMImq_ws_y61QIV1kAbCh2QWAYLEAQYAiABEgKSEfD_BwE#.WYMKfRRT7Ew)
+
 [ ] [Force Sensitive Resitor
 (FSR)](http://www.botnroll.com/en/outros/222-sen-09375-sensor-de-forca-resistivo-05-.html?search_query=fsr&results=3)
 sensor with 1.3 cm diameter
+
 [ ] Header pins
 
 
