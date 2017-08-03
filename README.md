@@ -68,17 +68,18 @@ brackets](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBrac
 [  ] 4x [Armband bracket](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ArmbandBracket.scad)
  
 ### Hardware
-[  ] Power bank with on/off button ([this
-model](http://uk.rs-online.com/web/p/power-banks/7757504/) works
-great)
-
-[  ] USB to Micro (or Mini) USB cable ([preferrably retractable](http://www.dx.com/pt/p/retractable-usb-to-mini-usb-data-cable-74cm-length-22552#.WYMNZhRT7Ew))
-
 [  ] Metal wire (like the one used for hanging picture frames)
 
 [  ] Small metal nail
 
 [  ] Blu tack (or equivalent)
+
+[  ] 1x Power bank with on/off button ([this
+model](http://uk.rs-online.com/web/p/power-banks/7757504/) works
+great)
+
+[  ] 1x USB to Micro (or Mini) USB cable ([preferrably retractable](http://www.dx.com/pt/p/retractable-usb-to-mini-usb-data-cable-74cm-length-22552#.WYMNZhRT7Ew))
+
 
 #### for the littleBits variant
 [  ] 1x [USB power](https://shop.littlebits.cc/products/usb-power)
@@ -121,14 +122,34 @@ sensor with 1.3 cm diameter
 [  ] Header pins
 
 
-## littleBits variant
+## Assembling the 3D printed puzzle
+For practical reasons, we broke down the claw structure to its individual components (box, claws, clips, brackets, etc.). These need to be merged (i.e. glued) and/or put together in order to create the solid usable structure the makes the overall Wolverino form factor.
+
+Changes to the scale of the components need to be carefully thought out, given that the current overall size and dimensions have been optimised to house the electronic components into a compact and user-friendly unit shown in the pictures of the Arduino variant bellow.
+
+Needless to say that hacking is incentivised and improvements to the designs will be very welcome ;)
+
+### Step 1: Merge the claw and servo boxes
+Glue the claw box for the [left](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawBox-LeftArm.scad) or [right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawBox-RightArm.scad) arm to the corresponding servo box (for the
+[left](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBox-LeftArm.scad)
+or [right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBox-RightArm.scad) arm).
+
+
+### Step 2
+ToDo
+
+### Step 3
+ToDo
+
+
+## littleBits build with EMG control (a.k.a. Pixels Camp 2016 variant)
 ToDo
 
 ### Wiring diagram
 <img src="https://github.com/hugoslv/wolverino/blob/master/littleBits/littleBits.jpg">
 
 
-## Arduino (low-cost) variant
+## Arduino build with MMG control (a.k.a. low-cost variant)
 ToDo
 
 ### Wiring diagram
