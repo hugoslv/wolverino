@@ -3,12 +3,12 @@ Muscle-controlled fully automatic DiY X-Men Wolverine claws, which
 deploy and retract using Electromyography (EMG) or Mechanomyography (MMG)
 signals.
 
-Here you'll find instructions on how to recreate our prototype
+Here you'll find instructions on how to recreate our initial prototype
 developed during [Pixels Camp 2016](https://www.youtube.com/watch?v=msZYemtDlfM)
-with EMG-based control, created using the [littleBits](http://littlebits.cc/) and
+with EMG-based control, built using the [littleBits](http://littlebits.cc/) and
 [BITalino](http://bitalino.com/) platforms.
 
-A later iteration has been 
+A second iteration based on the Arduino with MMG-based control has been created with the purpose of providing a low-cost alternative.
 
 ## What we've used for our builds
 Between (a lot of) 3D printed parts, textiles, hardware and other
