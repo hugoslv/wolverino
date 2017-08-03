@@ -156,6 +156,11 @@ In order for the claw to deployed and retracted using the servo, the linkage bet
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/ClawLinkage.JPG">
 
 
+### Step 4: Finishing the assembly
+Glue one [armband bracket](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ArmbandBracket.scad) on each corner of the housing box and, once the glue dries off, slide the claw and linkage into the box so that the tip of each claw is popping out through the flat surface of the corresponding opening. The result should be as follows:
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/BoxedClaw.JPG">
+
+
 ## littleBits build with EMG control (a.k.a. Pixels Camp 2016 variant)
 ToDo
 
