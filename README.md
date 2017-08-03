@@ -12,7 +12,7 @@ A second iteration based on the Arduino with MMG-based control has been created 
 
 ## What we've used for our builds
 Between (a lot of) 3D printed parts, textiles, hardware and other
-tools, its best to give this checkist a look prior to start building 
+tools, it’s best to give this checkist a look prior to start building 
 your very own Wolverino.
 
 ### Tools
@@ -125,7 +125,7 @@ sensor with 1.3 cm diameter
 
 
 ## Assembling the 3D printed puzzle
-For practical reasons, we broke down the claw structure to its individual components (box, claws, clips, brackets, etc.). These need to be merged (i.e. glued) and/or put together in order to create the solid usable structure the makes the overall Wolverino form factor.
+For practical reasons, we broke down the Wolverino structure to its individual components (box, claws, clips, brackets, etc.). These need to be merged (i.e. glued) and/or put together in order to create the solid usable structure the makes the overall Wolverino form factor.
 
 Changes to the scale of the components need to be carefully thought out, given that the current overall size and dimensions have been optimised to house the electronic components into a compact and user-friendly unit shown in the pictures of the Arduino variant bellow.
 
@@ -143,16 +143,16 @@ shaft](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawShaft.sc
 
 Slide one of the [spacers](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawSpacers.scad) through the holding shaft to the left of the centred claw and the other spacer through to the right.
 
-Slide the remaining two claws through the holding shaft, one through the left and the other through the right.
+Slide the remaining two claws through the holding shaft, one through the left and the other through the right of the holding shaft.
 
 Slide one of the [claw retainers](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawShaftLocks.scad) through the left and the other through the right.
 
-Finish off the assembly, by using a length of metal wire (approx. 4.5 cm) to hold the claw components in place on the shaft. There are a couple of through holds on each edge of the the holding shaft in order to anchor the wire. The result should be as follows:
+Finish off the assembly, by using a length of metal wire (approx. 4.5 cm) to hold the claw components in place on the shaft. There are a couple of through holes on each edge of the holding shaft in order to anchor the wire. The result should be as follows:
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/ClawAssembly.JPG">
 
 
 ### Step 3: Claw linkage
-In order for the claw to deployed and retracted using the servo, the linkage between the two needs to be created. To do that, take a length of metal wire (approx. 15 cm), make a loop on one of the edges to attach it to the claw assembly and bend the other end (approx. 1 cm) to attach the linkage to the [servo lever](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoLever.scad). The result should be as follows:
+For the claw to deployed and retracted using the servo, the linkage between the two needs to be created. To do that, take a length of metal wire (approx. 15 cm), make a loop on one of the edges to attach it to the claw assembly and bend the other end (approx. 1 cm) to attach the linkage to the [servo lever](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoLever.scad). The result should be as follows:
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/ClawLinkage.JPG">
 
 
@@ -164,7 +164,7 @@ Once the glue dries off, slide the claw and linkage into the box so that the tip
 
 
 ### Step 5: Servo mounting
-The servo position on the box depends on the type of rotation it performs and on whether the claw will be used on the left or right arm, so be sure to confirm these aspects prior to competing this step.
+The servo position on the box depends on the type of rotation it performs and on whether the claw will be used on the left or right arm, so be sure to confirm these aspects prior to completing this step.
 
 Slide the large hole on the [servo lever](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoLever.scad) onto the servo arm and lock the servo lever in place using a piece of the metal wire. 
 
@@ -269,7 +269,7 @@ Camp](https://github.com/PixelsCamp) 2016 as a friends hangout between
 [3devangelist](https://github.com/3devangelist) and 
 [pires](https://github.com/pires), where it won 2nd place. 
 
-Subsequent developments made to create a lower-cost version (based on
+Subsequent developments made to create a low-cost version (based on
 the Arduino and FSR sensors) have been partially supported by the
 [Escola Superior de Tecnologia de Setúbal (EST)](http://www.estsetubal.ips.pt) of the [Instituto
 Polit&eacute;cnico de Setúbal (IPS)](http://www.ips.pt/ips_si/web_page.inicial) under the project "Garra".
