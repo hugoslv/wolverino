@@ -185,6 +185,28 @@ To do this, punch a hole through the box over the location of the button (large 
 You can see how the finished result looks like in the picture of Step 5; the little silver dot on near the top left corner of the left servo mount is the nail.
 
 
+## Sewing the elastic armbands
+From the multiple options to attach the Wolverino claw to your arm, we chose to create elastic bands, one for the hand and another for the forearm. You can do it yourself or have this made externally, but the process is pretty simple (as described bellow). 
+
+### Step 1: Prevent the edge from shredding 
+On each edge of the elastic strip, roll a small portion inwards and stitch it in place to prevent shredding.
+
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/ShredPrevention.JPG">
+
+### Step 2: Stitch the velcro
+Take 28 cm of elastic strip (from one stitched edge inwards), stitch 5 cm of velcro hook tape to one end and 9 cm of velcro loop tape after that. This is the base for the hand palm strap.
+
+Take 32 cm of elastic strip (from the other stitched edge inwards), stitch 5 cm of velcro hook tape to one end and 12 cm of velcro loop tape after that. This is the base for the forearm strap.
+
+Note that the above-mentioned lengths for the elastic strip and velcro loop tape have been devised for us. Sizes can greatly depend on your anatomy, so you’ll want to double check these measurements to see if any adjustments are needed in your case.
+
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/Straps.JPG">
+
+### Step 3: Prevent the edge from shredding 
+
+
+
+
 ## littleBits build with EMG control (a.k.a. Pixels Camp 2016 variant)
 This version of Wolverino was implemented using [littleBits](http://littlebits.cc/) and
 [BITalino](http://bitalino.com/) components, providing Electromyographic (EMG) control of the claw deployment and retraction. 
@@ -205,9 +227,9 @@ It is important to highlight that we have the D5 and D9 switches on ANALOG, the 
 
 
 ### Assembled unit
-Combining the instructions found in this section with the assembly instructions for the 3D printed parts, the final result should be similar to the one shown in the picture bellow.
+Combining the instructions found in this section with the assembly instructions for the 3D printed parts, the final result should be similar to the one shown in the pictures bellow (with and without the accessories for mode selection). 
 
-Note that we used the two [Arduino holding clips](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClipArduinoBit.scad) to glue the littleBits Arduino board to the top of the box. In this case we also used an external battery mount.
+Note that we used the two [Arduino holding clips](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClipArduinoBit.scad) to glue the littleBits Arduino board to the top of the box. In this case we also used the optional [external battery holder](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ArmPad.scad).
 
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/WolverinoEMG-1.JPG">
 
@@ -215,10 +237,26 @@ Note that we used the two [Arduino holding clips](https://github.com/hugoslv/wol
 
 
 ## Arduino build with MMG control (a.k.a. low-cost variant)
-ToDo
+This version of Wolverino was implemented using an Arduino and the least number of components possible, providing a low-cost alternative based on Mecanomyographic (MMG) control of the claw deployment and retraction. Due to the nature of MMG signals this approach is more "temperamental" when compared to the EMG-based approach, however it offers a nice cost / functionality ratio.
+
+### Setup instructions
+
+To replicate this setup, you just need to connect the Arduino, servo, FSR and resistor as shown in the wiring diagram bellow. The firmware is available [here](https://github.com/hugoslv/wolverino/tree/master/arduino) and currently only supports the TOGGLE mode.
+
+The code compares the input on A1 (expected to be a FSR) to a threshold and toggles D12 (expected to be a servo) between 15º and 145º. These limits have been defined to prevent the claw from extending in excess (which in some cases makes the claw get stuck on the openings) or retracting in excess (which in some cases forces the servo).
 
 ### Wiring diagram
 <img src="https://github.com/hugoslv/wolverino/blob/master/arduino/arduino.png">
+
+
+### Assembled unit
+Combining the instructions found in this section with the assembly instructions for the 3D printed parts, the final result should be similar to the one shown in the pictures bellow. 
+
+Note that we used the two [Arduino holding clips](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClipArduinoBit.scad) to glue the Arduino Nano board inside the box. In this case we also placed the battery inside the box, leading to a more user-friendly unit. Furthermore, the FSR sensor was attached to the bottom of the box with Blu tack.
+
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/WolverinoMMG-1.JPG">
+
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/WolverinoMMG-2.JPG">
 
 
 ## Acknowledgments
