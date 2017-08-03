@@ -124,14 +124,14 @@ sensor with 1.3 cm diameter
 ## littleBits variant
 ToDo
 
-### Schematics
+### Wiring diagram
 <img src="https://github.com/hugoslv/wolverino/blob/master/littleBits/littleBits.jpg">
 
 
 ## Arduino (low-cost) variant
 ToDo
 
-### Schematics
+### Wiring diagram
 <img src="https://github.com/hugoslv/wolverino/blob/master/arduino/arduino.png">
 
 
