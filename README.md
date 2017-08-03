@@ -188,8 +188,8 @@ You can see how the finished result looks like in the picture of Step 5; the lit
 ## Sewing the elastic armbands
 From the multiple options to attach the Wolverino claw to your arm, we chose to create elastic bands, one for the hand and another for the forearm. You can do it yourself or have this made externally, but the process is pretty simple (as described bellow). 
 
-### Step 1: Prevent the edge from shredding 
-On each edge of the elastic strip, roll a small portion inwards and stitch it in place to prevent shredding.
+### Step 1: Elastic strip preparation
+On each edge of the elastic strip, roll a small portion inwards and stitch it in place. This helps both prevent the edge from shredding and the straps from sliding too easily through the buckles. The result should be as follows:
 
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/ShredPrevention.JPG">
 
@@ -202,9 +202,12 @@ Note that the above-mentioned lengths for the elastic strip and velcro loop tape
 
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/Straps.JPG">
 
-### Step 3: Prevent the edge from shredding 
+### Step 3: Attach the buckles
 
+On each strap, take the opposing edge to the one handled in Step 1, pass the elastic around the buckle and stitch in place (if the buckle has a top and bottom side its best to confirm the position). The result should be as follows:
 
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/StrapBuckle.JPG">
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/CompletedStrap.JPG">
 
 
 ## littleBits build with EMG control (a.k.a. Pixels Camp 2016 variant)
