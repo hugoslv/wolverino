@@ -31,7 +31,7 @@ tools its best to give this checkist prior to strating your build.
 
 ### Hardware
 [ ] Power bank with on/off button ([this
-model](](http://uk.rs-online.com/web/p/power-banks/7757504/) works
+model](http://uk.rs-online.com/web/p/power-banks/7757504/)) works
 great)
 
 [ ] USB to Micro (or Mini) USB cable ([retractable is
