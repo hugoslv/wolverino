@@ -134,7 +134,8 @@ Needless to say that hacking is incentivised and improvements to the designs wil
 ### Step 1: Merge the claw and servo boxes
 Glue the claw box for the [left](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawBox-LeftArm.scad) or [right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawBox-RightArm.scad) arm to the corresponding servo box (for the
 [left](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBox-LeftArm.scad)
-or [right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBox-RightArm.scad) arm) in such a way that the side slot lines up perfectly.
+or [right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBox-RightArm.scad) arm) in such a way that the side slot lines up perfectly. The result should be as follows:
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/Box.JPG">
 
 ### Step 2: Claw assembly
 To create the claw assembly slide one [claw](https://github.com/hugoslv/wolverino/blob/master/3d%20models/Claw.scad) through the [holding
