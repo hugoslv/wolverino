@@ -8,7 +8,7 @@ Between (a lot of) 3D printed parts, textiles, hardware and other
 tools its best to give this checkist prior to strating your build.
 
 ### Tools
-|_| 3D printer
+[ ] 3D printer
 |_| Super glue
 |_| Small pliers
 |_| Sewing machine
