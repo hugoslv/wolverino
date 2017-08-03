@@ -147,12 +147,13 @@ Slide the remaining two claws through the holding shaft, one through the left an
 
 Slide one of the [claw retainers](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawShaftLocks.scad) through the left and the other through the right.
 
-Finish off the assembly, by using a piece of metal wire to hold the claw components in place on the shaft. There are a couple of through holds on each edge of the the holding shaft in order to anchor the wire. The result should be as follows:
+Finish off the assembly, by using a length of metal wire (approx. 4.5 cm) to hold the claw components in place on the shaft. There are a couple of through holds on each edge of the the holding shaft in order to anchor the wire. The result should be as follows:
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/ClawAssembly.JPG">
 
 
-### Step 3
-ToDo
+### Step 3: Adding claw linkage
+In order for the claw to deployed and retracted using the servo, the linkage between the two needs to be created. To do that, take a length of metal wire (approx. 15 cm), make a loop on one of the edges to attach it to the claw assembly and bend the other end (approx. 1 cm) to attach the linkage to the [servo lever](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoLever.scad). The result should be as follows:
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/ClawLinkage.JPG">
 
 
 ## littleBits build with EMG control (a.k.a. Pixels Camp 2016 variant)
