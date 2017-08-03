@@ -240,7 +240,7 @@ Note that we used the two [Arduino holding clips](https://github.com/hugoslv/wol
 
 
 ## Arduino build with MMG control (a.k.a. low-cost variant)
-This version of Wolverino was implemented using an Arduino and the least number of components possible, providing a low-cost alternative based on Mecanomyographic (MMG) control of the claw deployment and retraction. Due to the nature of MMG signals this approach is more "temperamental" when compared to the EMG-based approach, however it offers a nice cost / functionality ratio.
+This version of Wolverino was implemented using an Arduino and the least number of components possible, providing a low-cost alternative based on Mecanomyographic (MMG) control of the claw deployment and retraction. Due to the nature of MMG signals, this approach is more "temperamental" when compared to the EMG-based approach, however it offers a nice cost / functionality ratio.
 
 ### Setup instructions
 
@@ -255,7 +255,7 @@ The code compares the input on A1 (expected to be a FSR) to a threshold and togg
 ### Assembled unit
 Combining the instructions found in this section with the assembly instructions for the 3D printed parts, the final result should be similar to the one shown in the pictures bellow. 
 
-Note that we used the two [Arduino holding clips](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClipArduinoBit.scad) to glue the Arduino Nano board inside the box. In this case we also placed the battery inside the box, leading to a more user-friendly unit. Furthermore, the FSR sensor was attached to the bottom of the box with Blu tack.
+Note that we used the two [Arduino holding clips](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClipArduinoBit.scad) to glue the Arduino Nano board inside the box. In this case we also placed the battery inside the box, leading to a more user-friendly unit. Furthermore, the FSR sensor was attached to the bottom of the box with blu tack.
 
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/WolverinoMMG-1.JPG">
 
@@ -267,7 +267,7 @@ This project started out at at [Pixels
 Camp](https://github.com/PixelsCamp) 2016 as a friends hangout between
 [hugoslv](https://github.com/hugoslv),
 [3devangelist](https://github.com/3devangelist) and 
-[@pires](https://github.com/pires), where it won 2nd place. 
+[pires](https://github.com/pires), where it won 2nd place. 
 
 Subsequent developments made to create a lower-cost version (based on
 the Arduino and FSR sensors) have been partially supported by the
