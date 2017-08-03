@@ -20,6 +20,8 @@ tools its best to give this checkist prior to strating your build.
 
 [ ] Solder
 
+[ ] Blu tack (or equivalent)
+
 ### Textile 
 [ ] 100 cm of elastic strip (2.5 cm width)
 
@@ -30,16 +32,15 @@ tools its best to give this checkist prior to strating your build.
 [ ] 2 adjustable buckles (2.5 cm running space)
 
 ### Hardware
-[ ] Power bank with on/off button ([this
-model](http://uk.rs-online.com/web/p/power-banks/7757504/)) works
+[ ] Power bank preferrably with on/off button ([this
+model](http://uk.rs-online.com/web/p/power-banks/7757504/) works
 great)
 
-[ ] USB to Micro (or Mini) USB cable ([retractable is
-recommended](http://www.dx.com/pt/p/retractable-usb-to-mini-usb-data-cable-74cm-length-22552#.WYMNZhRT7Ew))
+[ ] USB to Micro (or Mini) USB cable ([preferrably retractable](http://www.dx.com/pt/p/retractable-usb-to-mini-usb-data-cable-74cm-length-22552#.WYMNZhRT7Ew))
 
 [ ] Metal wire (like the one used for hanging picture frames)
 
-[ ] Small nail
+[ ] Small metal nail
 
 #### Arduino variant
 [ ] Arduino Nano (or equivalent)
