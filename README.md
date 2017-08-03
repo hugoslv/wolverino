@@ -53,8 +53,25 @@ sensor with 1.3 cm diameter
 
 [ ] Header pins
 
+#### littleBits variant
+[ ] 1x [USB power](https://shop.littlebits.cc/products/usb-power)
 
-## Acknowledgments:
+[ ] 1x [Arduino Bit](https://shop.littlebits.cc/products/arduino-bit)
+
+[ ] 1x [Servo](https://shop.littlebits.cc/products/servo)
+
+[ ] 1x [Wire Bit](https://shop.littlebits.cc/products/wire-bit)
+
+[ ] 1x [Proto Bit](https://shop.littlebits.cc/products/proto)
+
+[ ] 1x [Bargraph](https://shop.littlebits.cc/products/bargraph)
+(optional)
+
+[ ] 1x [Dimmer Bit](https://shop.littlebits.cc/products/dimmer) (optional)
+
+[ ] 1x [bitSnap](https://shop.littlebits.cc/products/bitsnaps) (optional)
+
+## Acknowledgments
 This project started out at at [Pixels
 Camp](https://github.com/PixelsCamp) 2016 as a friends hangout between
 [hugoslv](https://github.com/hugoslv),
