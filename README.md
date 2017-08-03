@@ -131,7 +131,7 @@ Changes to the scale of the components need to be carefully thought out, given t
 
 Needless to say that hacking is incentivised and improvements to the designs will be very welcome ;)
 
-### Step 1: Merge the claw and servo boxes
+### Step 1: Merge claw and servo boxes
 Glue the claw box for the [left](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawBox-LeftArm.scad) or [right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawBox-RightArm.scad) arm to the corresponding servo box (for the
 [left](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBox-LeftArm.scad)
 or [right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBox-RightArm.scad) arm) in such a way that the side slot lines up perfectly. The result should be as follows:
@@ -151,14 +151,30 @@ Finish off the assembly, by using a length of metal wire (approx. 4.5 cm) to hol
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/ClawAssembly.JPG">
 
 
-### Step 3: Adding claw linkage
+### Step 3: Claw linkage
 In order for the claw to deployed and retracted using the servo, the linkage between the two needs to be created. To do that, take a length of metal wire (approx. 15 cm), make a loop on one of the edges to attach it to the claw assembly and bend the other end (approx. 1 cm) to attach the linkage to the [servo lever](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoLever.scad). The result should be as follows:
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/ClawLinkage.JPG">
 
 
-### Step 4: Finishing the assembly
-Glue one [armband bracket](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ArmbandBracket.scad) on each corner of the housing box and, once the glue dries off, slide the claw and linkage into the box so that the tip of each claw is popping out through the flat surface of the corresponding opening. The result should be as follows:
+### Step 4: Armband brackets and claw housing
+Glue one [armband bracket](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ArmbandBracket.scad) near the edge of each corner of the housing box. These will later be the mounting points for the hand and forearm elastic bands, so place them in a way that will comfortably fit your arm.
+
+Once the glue dries off, slide the claw and linkage into the box so that the tip of each claw is popping out through the flat surface of the corresponding opening. The result should be as follows:
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/BoxedClaw.JPG">
+
+
+### Step 5: Servo mounting
+The servo position on the box depends on the type of rotation it performs and on whether the claw will be used on the left or right arm, so be sure to confirm these aspects prior to competing this step.
+
+Slide the large hole on the [servo lever](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoLever.scad) onto the servo arm and lock the servo lever in place using a piece of the metal wire.
+
+Using a drill or an x-cutter, cut through straight lines between the dots found on top of the box to open the servo mounting frame. 
+
+Afterwards place the servo on the mounting frame (note that the cable stays outside the box if you’re using the littleBits and goes inside the box if you’re using the Arduino.
+
+Lock the servo in place by clipping the [servo
+brackets](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBracket.scad) on to each side of servo and gluing the edges of the servo brackets to the box. The result should be as follows:
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/MountedServo.JPG">
 
 
 ## littleBits build with EMG control (a.k.a. Pixels Camp 2016 variant)
