@@ -125,7 +125,7 @@ sensor with 1.3 cm diameter
 ToDo
 
 ### Schematics
-<img src="https://github.com/hugoslv/wolverino/blob/master/littleBits/littleBits.jpg" width="128">
+<img src="https://github.com/hugoslv/wolverino/blob/master/littleBits/littleBits.jpg">
 
 
 ## Arduino (low-cost) variant
