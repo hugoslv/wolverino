@@ -28,7 +28,7 @@ your very own Wolverino.
 
 [  ] Solder
 
-### Textile 
+### Textiles
 [  ] 100 cm of elastic strip (2.5 cm width)
 
 [  ] 21 cm of velcro loop tape (2 cm width)
@@ -124,6 +124,31 @@ sensor with 1.3 cm diameter
 [  ] Header pins
 
 
+## Sewing the elastic armbands
+From the multiple options to attach the Wolverino claw to your arm, we chose to create elastic bands, one for the hand and another for the forearm. You can do it yourself or have this made externally, but the process is pretty simple (as described bellow). 
+
+### Step 1: Elastic strip preparation
+On each edge of the elastic strip, roll a small portion inwards and stitch it in place. This helps both prevent the edge from shredding and the straps from sliding too easily through the buckles. The result should be as follows:
+
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/ShredPrevention.JPG">
+
+### Step 2: Stitch the velcro
+Take 28 cm of elastic strip (from one stitched edge inwards), stitch 5 cm of velcro hook tape to one end and 9 cm of velcro loop tape after that. This is the base for the hand palm strap.
+
+Take 32 cm of elastic strip (from the other stitched edge inwards), stitch 5 cm of velcro hook tape to one end and 12 cm of velcro loop tape after that. This is the base for the forearm strap.
+
+Note that the above-mentioned lengths for the elastic strip and velcro loop tape have been devised for us. Sizes can greatly depend on your anatomy, so you’ll want to double check these measurements to see if any adjustments are needed in your case.
+
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/Straps.JPG">
+
+### Step 3: Attach the buckles
+
+On each strap, take the opposing edge to the one handled in Step 1, pass the elastic around the buckle and stitch in place (if the buckle has a top and bottom side its best to confirm the position). The result should be as follows:
+
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/StrapBuckle.JPG">
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/CompletedStrap.JPG">
+
+
 ## Assembling the 3D printed puzzle
 For practical reasons, we broke down the Wolverino structure to its individual components (box, claws, clips, brackets, etc.). These need to be merged (i.e. glued) and/or put together in order to create the solid usable structure the makes the overall Wolverino form factor.
 
@@ -183,31 +208,6 @@ If you intend to house a power bank with on/off button inside the box, a cool pa
 To do this, punch a hole through the box over the location of the button (large enough to pass the nail through), slide the nail through the hole in such way that the nail head stays inside the box and trim the nail tip to become dissimulated on the top of the box.
 
 You can see how the finished result looks like in the picture of Step 5; the little silver dot on near the top left corner of the left servo mount is the nail.
-
-
-## Sewing the elastic armbands
-From the multiple options to attach the Wolverino claw to your arm, we chose to create elastic bands, one for the hand and another for the forearm. You can do it yourself or have this made externally, but the process is pretty simple (as described bellow). 
-
-### Step 1: Elastic strip preparation
-On each edge of the elastic strip, roll a small portion inwards and stitch it in place. This helps both prevent the edge from shredding and the straps from sliding too easily through the buckles. The result should be as follows:
-
-<img src="https://github.com/hugoslv/wolverino/blob/master/photos/ShredPrevention.JPG">
-
-### Step 2: Stitch the velcro
-Take 28 cm of elastic strip (from one stitched edge inwards), stitch 5 cm of velcro hook tape to one end and 9 cm of velcro loop tape after that. This is the base for the hand palm strap.
-
-Take 32 cm of elastic strip (from the other stitched edge inwards), stitch 5 cm of velcro hook tape to one end and 12 cm of velcro loop tape after that. This is the base for the forearm strap.
-
-Note that the above-mentioned lengths for the elastic strip and velcro loop tape have been devised for us. Sizes can greatly depend on your anatomy, so you’ll want to double check these measurements to see if any adjustments are needed in your case.
-
-<img src="https://github.com/hugoslv/wolverino/blob/master/photos/Straps.JPG">
-
-### Step 3: Attach the buckles
-
-On each strap, take the opposing edge to the one handled in Step 1, pass the elastic around the buckle and stitch in place (if the buckle has a top and bottom side its best to confirm the position). The result should be as follows:
-
-<img src="https://github.com/hugoslv/wolverino/blob/master/photos/StrapBuckle.JPG">
-<img src="https://github.com/hugoslv/wolverino/blob/master/photos/CompletedStrap.JPG">
 
 
 ## littleBits build with EMG control (a.k.a. Pixels Camp 2016 variant)
