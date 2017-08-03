@@ -1,11 +1,19 @@
 # Wolverino
-Muscle-controlled fully automatic DiY X-Men Wolverine claws that
+Muscle-controlled fully automatic DiY X-Men Wolverine claws, which
 deploy and retract using Electromyography (EMG) or Mechanomyography (MMG)
 signals.
 
+Here you'll find instructions on how to recriate our prototype
+developed for [Pixels Camp 2016]
+using EMG created with the [littleBits](http://littlebits.cc/) and
+[BITalino](http://bitalino.com/) platforms.
+
+A later iteration has been 
+
 ## What we've used for our builds
 Between (a lot of) 3D printed parts, textiles, hardware and other
-tools its best to give this checkist prior to starting your build.
+tools, its best to give this checkist a look prior to start building 
+your own Wolverino.
 
 ### Tools
 [  ] 3D printer
@@ -72,7 +80,7 @@ great)
 
 [  ] Blu tack (or equivalent)
 
-#### for the Arduino variant
+#### for the Arduino (low-cost) variant
 [  ] Arduino Nano (or equivalent)
 
 [  ] [TowerPro SG90 Micro
