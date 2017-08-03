@@ -8,12 +8,12 @@ developed during Pixels Camp 2016 (check it out [here](https://www.youtube.com/w
 with EMG-based control, built using the [littleBits](http://littlebits.cc/) and
 [BITalino](http://bitalino.com/) platforms.
 
-A second iteration based on the Arduino with MMG-based control has been created with the purpose of providing a low-cost alternative.
+A second iteration based on the Arduino with MMG-based control has been created with the purpose of providing a low-cost and more compact alternative.
 
 ## What we've used for our builds
 Between (a lot of) 3D printed parts, textiles, hardware and other
 tools, its best to give this checkist a look prior to start building 
-your own Wolverino.
+your very own Wolverino.
 
 ### Tools
 [  ] 3D printer
