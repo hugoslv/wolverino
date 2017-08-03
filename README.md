@@ -1,6 +1,6 @@
 # Wolverino
 Muscle-controlled fully automatic DiY X-Men Wolverine claws, which
-deploy and retract using Electromyography (EMG) or Mechanomyography (MMG)
+deploy and retract using [Electromyography (EMG)](https://en.wikipedia.org/wiki/Electromyography) or [Mechanomyography (MMG)](https://en.wikipedia.org/wiki/Mechanomyogram)
 signals.
 
 Here you'll find instructions on how to recreate our initial prototype
@@ -72,7 +72,7 @@ brackets](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBrac
 ### Hardware
 [  ] Metal wire (like the one used for hanging picture frames)
 
-[  ] Small metal nail
+[  ] Small metal nail (optional)
 
 [  ] Blu tack (or equivalent)
 
@@ -166,22 +166,51 @@ Once the glue dries off, slide the claw and linkage into the box so that the tip
 ### Step 5: Servo mounting
 The servo position on the box depends on the type of rotation it performs and on whether the claw will be used on the left or right arm, so be sure to confirm these aspects prior to competing this step.
 
-Slide the large hole on the [servo lever](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoLever.scad) onto the servo arm and lock the servo lever in place using a piece of the metal wire.
+Slide the large hole on the [servo lever](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoLever.scad) onto the servo arm and lock the servo lever in place using a piece of the metal wire. 
 
 Using a drill or an x-cutter, cut through straight lines between the dots found on top of the box to open the servo mounting frame. 
 
-Afterwards place the servo on the mounting frame (note that the cable stays outside the box if you’re using the littleBits and goes inside the box if you’re using the Arduino.
+Afterwards place the servo on the mounting frame (note that the cable stays outside the box if you’re using the littleBits and goes inside the box if you’re using the Arduino. At this stage you can also attach and screw in the servo arm and lever assembly to the servo.
 
 Lock the servo in place by clipping the [servo
-brackets](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBracket.scad) on to each side of servo and gluing the edges of the servo brackets to the box. The result should be as follows:
+brackets](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBracket.scad) on to each side of servo and gluing the edges of the servo brackets to the box (although you may want to leave this for last to allow fine tuning). The result should be as follows:
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/MountedServo.JPG">
 
 
+### Step 6 (optional): Power “button”
+If you intend to house a power bank with on/off button inside the box, a cool party trick is to have the box surface as the power button. 
+
+To do this, punch a hole through the box over the location of the button (large enough to pass the nail through), slide the nail through the hole in such way that the nail head stays inside the box and trim the nail tip to become dissimulated on the top of the box.
+
+You can see how the finished result looks like in the picture of Step 5; the little silver dot on near the top left corner of the left servo mount is the nail.
+
+
 ## littleBits build with EMG control (a.k.a. Pixels Camp 2016 variant)
-ToDo
+This version of Wolverino was implemented using [littleBits](http://littlebits.cc/) and
+[BITalino](http://bitalino.com/) components, providing Electromyographic (EMG) control of the claw deployment and retraction. 
+
+### Setup instructions
+
+To replicate this setup, you just need to connect the littleBits and BITalino blocks as shown in the wiring diagram bellow. The firmware is available [here](https://github.com/hugoslv/wolverino/tree/master/littleBits) and supports two user-selectable operation modes, namely, TOGGLE (default) and PROPORTIONAL.
+
+The mode selection is optional, but based on the input of A0 (which in our setup is a Dimmer Bit) and displayed as a 0 or 255 output on D5 (which in our setup is a Bargraph). For the mode selection to work, a bitSnap with a shunt between the SIG and VCC pins needs to be connected to the Dimmer Bit.
+
+In TOGGLE mode the code compares the input on A1 (expected to be a BITalino EMG sensor) to a threshold and toggles D9 (expected to be a servo) between 0 and 255. In PROPORTIONAL mode the code applies a moving average filter to the input on A1 and provides an output bounded to 0-255 on D9.
+
 
 ### Wiring diagram
+It is important to highlight that we have the D5 and D9 switches on ANALOG, the servo switch on TURN, and the SIG (middle) jumper on the Proto Bit taken out.
+
 <img src="https://github.com/hugoslv/wolverino/blob/master/littleBits/littleBits.jpg">
+
+
+### Assembled unit
+Combining the instructions found in this section with the assembly instructions for the 3D printed parts, the final result should be similar to the one shown in the picture bellow.
+
+Note that we used the two [Arduino holding clips](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClipArduinoBit.scad) to glue the littleBits Arduino board to the top of the box. In this case we also used an external battery mount.
+
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/WolverinoEMG-1.JPG”>
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/WolverinoEMG-2.JPG”>
 
 
 ## Arduino build with MMG control (a.k.a. low-cost variant)
