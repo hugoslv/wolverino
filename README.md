@@ -272,4 +272,4 @@ Camp](https://github.com/PixelsCamp) 2016 as a friends hangout between
 Subsequent developments made to create a low-cost version (based on
 the Arduino and FSR sensors) have been partially supported by the
 [Escola Superior de Tecnologia de Setúbal (EST)](http://www.estsetubal.ips.pt) of the [Instituto
-Polit&eacute;cnico de Setúbal (IPS)](http://www.ips.pt/ips_si/web_page.inicial) under the project "Garra".
+Polit&eacute;cnico de Setúbal (IPS)](http://www.ips.pt/ips_si/web_page.inicial) under the project "Wolverino LC".
