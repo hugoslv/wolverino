@@ -209,9 +209,9 @@ Combining the instructions found in this section with the assembly instructions 
 
 Note that we used the two [Arduino holding clips](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClipArduinoBit.scad) to glue the littleBits Arduino board to the top of the box. In this case we also used an external battery mount.
 
-<img src="https://github.com/hugoslv/wolverino/blob/master/photos/WolverinoEMG-1.JPG”>
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/WolverinoEMG-1.JPG">
 
-<img src="https://github.com/hugoslv/wolverino/blob/master/photos/WolverinoEMG-2.JPG”>
+<img src="https://github.com/hugoslv/wolverino/blob/master/photos/WolverinoEMG-2.JPG">
 
 
 ## Arduino build with MMG control (a.k.a. low-cost variant)
