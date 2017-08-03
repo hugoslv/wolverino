@@ -80,18 +80,6 @@ great)
 
 [  ] Blu tack (or equivalent)
 
-#### for the Arduino (low-cost) variant
-[  ] Arduino Nano (or equivalent)
-
-[  ] [TowerPro SG90 Micro
-Servo](http://www.dx.com/pt/p/towerpro-sg90-9g-mini-servo-with-accessories-12859?tc=EUR&gclid=EAIaIQobChMImq_ws_y61QIV1kAbCh2QWAYLEAQYAiABEgKSEfD_BwE#.WYMKfRRT7Ew)
-
-[  ] [Force Sensitive Resitor
-(FSR)](http://www.botnroll.com/en/outros/222-sen-09375-sensor-de-forca-resistivo-05-.html?search_query=fsr&results=3)
-sensor with 1.3 cm diameter
-
-[  ] Header pins
-
 #### for the littleBits variant
 [  ] 1x [USB power](https://shop.littlebits.cc/products/usb-power)
 
@@ -118,6 +106,34 @@ SnapBIT-TRIO](https://store.plux.info/breakout-boards/221-snapbit-delta.html)
 [  ] 1x [Dimmer Bit](https://shop.littlebits.cc/products/dimmer) (optional)
 
 [  ] 1x [bitSnap](https://shop.littlebits.cc/products/bitsnaps) (optional)
+
+
+#### for the Arduino (low-cost) variant
+[  ] Arduino Nano (or equivalent)
+
+[  ] [TowerPro SG90 Micro
+Servo](http://www.dx.com/pt/p/towerpro-sg90-9g-mini-servo-with-accessories-12859?tc=EUR&gclid=EAIaIQobChMImq_ws_y61QIV1kAbCh2QWAYLEAQYAiABEgKSEfD_BwE#.WYMKfRRT7Ew)
+
+[  ] [Force Sensitive Resitor
+(FSR)](http://www.botnroll.com/en/outros/222-sen-09375-sensor-de-forca-resistivo-05-.html?search_query=fsr&results=3)
+sensor with 1.3 cm diameter
+
+[  ] Header pins
+
+
+## littleBits variant
+ToDo
+
+### Schematics
+<img src="https://github.com/hugoslv/wolverino/blob/master/littleBits/littleBits.jpg" width="128">
+
+
+## Arduino (low-cost) variant
+ToDo
+
+### Schematics
+<img src="https://github.com/hugoslv/wolverino/blob/master/arduino/arduino.png">
+
 
 ## Acknowledgments
 This project started out at at [Pixels
