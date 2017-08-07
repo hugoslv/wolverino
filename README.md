@@ -262,7 +262,7 @@ Note that we used the two [Arduino holding clips](https://github.com/hugoslv/wol
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/WolverinoMMG-2.JPG">
 
 
-## See It in Action
+## See it in action
 [![Wolverino: Muscle-controlled Fully Automatic DiY X-Men Wolverine Claws](https://img.youtube.com/vi/SrUn8FzJda4/0.jpg)](https://www.youtube.com/watch?v=SrUn8FzJda4)
 [![Wolverino, powered by Bitalino, littleBits and Hardware City](https://img.youtube.com/vi/msZYemtDlfM/0.jpg)](https://www.youtube.com/watch?v=msZYemtDlfM)
 
