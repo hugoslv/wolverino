@@ -39,35 +39,35 @@ your very own Wolverino.
 
 
 ### 3D printed parts 
-[  ] 1x Claw box for the [left](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawBox-LeftArm.scad) or [right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawBox-RightArm.scad) arm
+[  ] 1x Claw box for the [left](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawBox-LeftArm.scad) or [right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ClawBox-RightArm.scad) arm
 
 [  ] 1x Servo box for the
-[left](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBox-LeftArm.scad)
+[left](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ServoBox-LeftArm.scad)
 or
-[right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBox-RightArm.scad)
+[right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ServoBox-RightArm.scad)
 arm
 
-[  ] 3x [Claw](https://github.com/hugoslv/wolverino/blob/master/3d%20models/Claw.scad)
+[  ] 3x [Claw](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/Claw.scad)
 
 [  ] 1x [Claw holding
-shaft](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawShaft.scad)
+shaft](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ClawShaft.scad)
 
 [  ] 2x [Claw
-retainers](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawShaftLocks.scad)
+retainers](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ClawShaftLocks.scad)
 
 [  ] 2x [Claw
-spacers](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawSpacers.scad)
+spacers](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ClawSpacers.scad)
 
-[  ] 2x [Arduino holding clip](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClipArduinoBit.scad)
+[  ] 2x [Arduino holding clip](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ClipArduinoBit.scad)
 
 [  ] 2x [Servo
-brackets](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBracket.scad)
+brackets](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ServoBracket.scad)
 
-[  ] 1x [Servo lever](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoLever.scad)
+[  ] 1x [Servo lever](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ServoLever.scad)
 
-[  ] 4x [Armband bracket](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ArmbandBracket.scad)
+[  ] 4x [Armband bracket](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ArmbandBracket.scad)
 
-[  ] 1x [External battery holder](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ArmPad.scad) (optional)
+[  ] 1x [External battery holder](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ArmPad.scad) (optional)
  
 ### Hardware
 [  ] Metal wire (like the one used for hanging picture frames)
@@ -157,32 +157,32 @@ Changes to the scale of the components need to be carefully thought out, given t
 Needless to say that hacking is incentivised and improvements to the designs will be very welcome ;)
 
 ### Step 1: Merge claw and servo boxes
-Glue the claw box for the [left](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawBox-LeftArm.scad) or [right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawBox-RightArm.scad) arm to the corresponding servo box (for the
-[left](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBox-LeftArm.scad)
-or [right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBox-RightArm.scad) arm) in such a way that the side slot lines up perfectly. The result should be as follows:
+Glue the claw box for the [left](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ClawBox-LeftArm.scad) or [right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ClawBox-RightArm.scad) arm to the corresponding servo box (for the
+[left](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ServoBox-LeftArm.scad)
+or [right](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ServoBox-RightArm.scad) arm) in such a way that the side slot lines up perfectly. The result should be as follows:
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/Box.JPG">
 
 ### Step 2: Claw assembly
-To create the claw assembly slide one [claw](https://github.com/hugoslv/wolverino/blob/master/3d%20models/Claw.scad) through the [holding
-shaft](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawShaft.scad) in such a way that it is centred on the shaft. 
+To create the claw assembly slide one [claw](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/Claw.scad) through the [holding
+shaft](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ClawShaft.scad) in such a way that it is centred on the shaft. 
 
-Slide one of the [spacers](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawSpacers.scad) through the holding shaft to the left of the centred claw and the other spacer through to the right.
+Slide one of the [spacers](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ClawSpacers.scad) through the holding shaft to the left of the centred claw and the other spacer through to the right.
 
 Slide the remaining two claws through the holding shaft, one through the left and the other through the right of the holding shaft.
 
-Slide one of the [claw retainers](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClawShaftLocks.scad) through the left and the other through the right.
+Slide one of the [claw retainers](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ClawShaftLocks.scad) through the left and the other through the right.
 
 Finish off the assembly, by using a length of metal wire (approx. 4.5 cm) to hold the claw components in place on the shaft. There are a couple of through holes on each edge of the holding shaft in order to anchor the wire. The result should be as follows:
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/ClawAssembly.JPG">
 
 
 ### Step 3: Claw linkage
-For the claw to deployed and retracted using the servo, the linkage between the two needs to be created. To do that, take a length of metal wire (approx. 15 cm), make a loop on one of the edges to attach it to the claw assembly and bend the other end (approx. 1 cm) to attach the linkage to the [servo lever](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoLever.scad). The result should be as follows:
+For the claw to deployed and retracted using the servo, the linkage between the two needs to be created. To do that, take a length of metal wire (approx. 15 cm), make a loop on one of the edges to attach it to the claw assembly and bend the other end (approx. 1 cm) to attach the linkage to the [servo lever](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ServoLever.scad). The result should be as follows:
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/ClawLinkage.JPG">
 
 
 ### Step 4: Armband brackets and claw housing
-Glue one [armband bracket](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ArmbandBracket.scad) near the edge of each corner of the housing box. These will later be the mounting points for the hand and forearm elastic bands, so place them in a way that will comfortably fit your arm.
+Glue one [armband bracket](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ArmbandBracket.scad) near the edge of each corner of the housing box. These will later be the mounting points for the hand and forearm elastic bands, so place them in a way that will comfortably fit your arm.
 
 Once the glue dries off, slide the claw and linkage into the box so that the tip of each claw is popping out through the flat surface of the corresponding opening. The result should be as follows:
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/BoxedClaw.JPG">
@@ -191,14 +191,14 @@ Once the glue dries off, slide the claw and linkage into the box so that the tip
 ### Step 5: Servo mounting
 The servo position on the box depends on the type of rotation it performs and on whether the claw will be used on the left or right arm, so be sure to confirm these aspects prior to completing this step.
 
-Slide the large hole on the [servo lever](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoLever.scad) onto the servo arm and lock the servo lever in place using a piece of the metal wire. 
+Slide the large hole on the [servo lever](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ServoLever.scad) onto the servo arm and lock the servo lever in place using a piece of the metal wire. 
 
 Using a drill or an x-cutter, cut through straight lines between the dots found on top of the box to open the servo mounting frame. 
 
 Afterwards place the servo on the mounting frame (note that the cable stays outside the box if you’re using the littleBits and goes inside the box if you’re using the Arduino. At this stage you can also attach and screw in the servo arm and lever assembly to the servo.
 
 Lock the servo in place by clipping the [servo
-brackets](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ServoBracket.scad) on to each side of servo and gluing the edges of the servo brackets to the box (although you may want to leave this for last to allow fine tuning). The result should be as follows:
+brackets](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ServoBracket.scad) on to each side of servo and gluing the edges of the servo brackets to the box (although you may want to leave this for last to allow fine tuning). The result should be as follows:
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/MountedServo.JPG">
 
 
@@ -232,7 +232,7 @@ It is important to highlight that we have the D5 and D9 switches on ANALOG, the 
 ### Assembled unit
 Combining the instructions found in this section with the assembly instructions for the 3D printed parts, the final result should be similar to the one shown in the pictures bellow (with and without the accessories for mode selection). 
 
-Note that we used the two [Arduino holding clips](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClipArduinoBit.scad) to glue the littleBits Arduino board to the top of the box. In this case we also used the optional [external battery holder](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ArmPad.scad).
+Note that we used the two [Arduino holding clips](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ClipArduinoBit.scad) to glue the littleBits Arduino board to the top of the box. In this case we also used the optional [external battery holder](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ArmPad.scad).
 
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/WolverinoEMG-1.JPG">
 
@@ -255,7 +255,7 @@ The code compares the input on A1 (expected to be a FSR) to a threshold and togg
 ### Assembled unit
 Combining the instructions found in this section with the assembly instructions for the 3D printed parts, the final result should be similar to the one shown in the pictures bellow. 
 
-Note that we used the two [Arduino holding clips](https://github.com/hugoslv/wolverino/blob/master/3d%20models/ClipArduinoBit.scad) to glue the Arduino Nano board inside the box. In this case we also placed the battery inside the box, leading to a more user-friendly unit. Furthermore, the FSR sensor was attached to the bottom of the box with blu tack.
+Note that we used the two [Arduino holding clips](https://github.com/hugoslv/wolverino/blob/master/3d%20models/v1/ClipArduinoBit.scad) to glue the Arduino Nano board inside the box. In this case we also placed the battery inside the box, leading to a more user-friendly unit. Furthermore, the FSR sensor was attached to the bottom of the box with blu tack.
 
 <img src="https://github.com/hugoslv/wolverino/blob/master/photos/WolverinoMMG-1.JPG">
 
